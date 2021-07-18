@@ -1,0 +1,30 @@
+{
+  "name": "chaos/middleware",
+  "description": "Helpful classes for filtering HTTP requests",
+  "keywords": [
+    "vietnam",
+    "middleware"
+  ],
+  "homepage": "https://github.com/ntd1712",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ntd1712",
+      "email": "ntd1712@mail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "illuminate/support": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chaos\\Support\\Middleware\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
